@@ -1,0 +1,212 @@
+body {
+  width: 100%;
+}
+
+/* all */
+
+header a {
+  color: #000;
+}
+
+header a:hover {
+  color: #2ca9e1;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  padding: 0 10px;
+}
+
+.fas,
+.far {
+  font-size: 5rem;
+  padding: 2rem 0;
+  color: #a8e02d;
+}
+
+.fab {
+  padding-top: 10px;
+  font-size:2rem;
+  color: #00acee;
+}
+
+.yellow {
+  background: linear-gradient(transparent 85%, yellow 85%);
+}
+
+.inner {
+  margin: 3rem 0;
+}
+
+.inner2 {
+  margin: 3rem 0 1.5rem 0;
+}
+
+.line-card {
+  margin: 2rem 0;
+}
+
+/* セクション１ */
+
+.section-1 {
+  height: 20rem;
+  background-image: url(images/network.jpg);
+  background-size: cover;
+}
+
+.section-1 h1 {
+  font-size: 2rem;
+  padding: 5.5rem .9rem;
+  font-weight: bold;
+}
+
+.textP {
+  margin: 1rem 0;
+  line-height: 2rem;
+}
+
+/* セクション２ */
+
+.section-2 h2 {
+  font-size: 1.7rem;
+  padding: 0 5rem;
+  margin-top: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.line {
+  padding-bottom: 2rem;
+}
+
+#bgBlue {
+  background-color: #2ca9e1;
+}
+
+.between {
+  position: relative;
+  padding: 2rem;
+  margin-top: 3rem;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.between::after {
+  content: '';
+  position: absolute;
+  bottom: -1.3rem;
+  left: 42%;
+  width: 0;
+  height: 0;
+  border-left: 2rem solid transparent;
+  border-right: 2rem solid transparent;
+  border-top: 1.5rem solid #2ca9e1;
+}
+
+/* セクション３ */
+/* セクション４ */
+
+.section-3 h3,
+.section-4 h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  padding: .6rem 2rem;
+  padding-top: 2.5rem;
+}
+
+.third-p {
+  padding-bottom: 2.5rem;
+  line-height: 2rem;
+}
+
+.section-4 h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.good {
+  margin-bottom: 3rem;
+}
+
+.small-text {
+  font-size: 0.9rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+/* セクション５ */
+
+.section-5 {
+  margin-top: 2rem;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.section-5 h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  padding: 3rem 3rem 1.5rem 3rem;
+}
+
+.section-5 h3 {
+  font-size: 1.6rem;
+  padding: 0 2rem;
+}
+
+.section-5 img {
+  margin: 2rem 0;
+}
+
+.where-ad {
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 3rem 0;
+  background-color: #fff;
+  color: #000;
+  position: relative;
+}
+
+.where-ad::after {
+  content: '';
+  position: absolute;
+  bottom: -1.3rem;
+  left: 42%;
+  width: 0;
+  height: 0;
+  border-left: 2rem solid transparent;
+  border-right: 2rem solid transparent;
+  border-top: 25px solid #fff;
+}
+
+.reason {
+  padding: 4rem 0 1rem 0;
+}
+
+.reason01 p {
+  padding: 2rem 2.5rem;
+}
+
+.sixth-sec {
+  margin-top: 3rem;
+}
+
+.section-6 h2 {
+  margin-bottom: 2rem;
+  padding: 0 1.5rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.l-img {
+  margin: 3rem 0;
+}

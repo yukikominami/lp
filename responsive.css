@@ -1,0 +1,63 @@
+@media screen and (min-width:770px){
+
+  .inner {
+    margin: 5rem 0;
+  }
+
+  .inner2 {
+    margin: 5rem 0 2.5rem 0;
+  }
+
+  .nav-link {
+    font-size: .9rem;
+  }
+
+  .where-ad::after,
+  .between::after {
+    left: 46%;
+  }
+
+  .section-3 h3 {
+    padding-top: 3.5rem;
+  }
+
+  .third-p {
+    padding: 0 2rem 1rem 2rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  .section-4 h3 {
+    font-size: 2rem;
+  }
+
+  .text-p {
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  .section-6 h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width:1200px){
+
+  .where-ad::after,
+  .between::after {
+    left: 48%;
+  }
+
+  .third-p {
+    text-align: center;
+  }
+
+  .text-p {
+    text-align: center;
+    padding: 0 7rem;
+  }
+
+  .section-6 h2 {
+    text-align: center;
+  }
+}
